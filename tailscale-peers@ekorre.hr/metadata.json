@@ -1,0 +1,8 @@
+{
+  "uuid": "tailscale-peers@ekorre.hr",
+  "name": "Tailscale Peers",
+  "description": "Shows whether Tailscale is connected and lists your tailnet's devices in a panel menu.\n\nFor each peer you see whether it is online, whether the connection is direct or relayed (and through which DERP region), the exit node, and when offline devices were last seen. While the menu is open it pings online devices to show latency, and shows per-device traffic. Click a device to copy its Tailscale IP, right-click to copy its MagicDNS name.\n\nRead-only: it only runs `tailscale status --json` and `tailscale ping`, so no operator permissions are needed.",
+  "url": "https://github.com/sveby/tailscale-peers-gnome-extension",
+  "shell-version": ["48", "49", "50"],
+  "version-name": "1.0"
+}

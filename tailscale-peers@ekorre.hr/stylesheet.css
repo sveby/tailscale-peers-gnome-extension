@@ -1,0 +1,17 @@
+.tsp-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.tsp-dot.online { background-color: #33d17a; }
+.tsp-dot.idle { background-color: #f6d32d; }
+.tsp-dot.offline { background-color: rgba(128, 128, 128, 0.6); }
+
+.tsp-name { font-weight: bold; }
+.tsp-detail { font-size: 0.85em; color: rgba(128, 128, 128, 1); }
+.tsp-ip { font-family: monospace; font-size: 0.9em; margin-left: 12px; }
+.tsp-header { font-size: 0.9em; }
+.tsp-warning { color: #e5a50a; font-size: 0.9em; }
+.tsp-meta { font-size: 0.8em; color: rgba(128, 128, 128, 1); margin-left: 12px; }
+.tsp-hint { font-size: 0.8em; color: rgba(128, 128, 128, 1); }
